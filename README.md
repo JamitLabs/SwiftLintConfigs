@@ -16,7 +16,7 @@ If you don't want automatic updates as soon as the configuration gets changed, y
 parent_config: https://raw.githubusercontent.com/JamitLabs/SwiftLintConfigs/stable/versions/1/swiftlint.yml
 ```
 
-Please note that SwiftLint will still allow you to customize your config, as the `parent_config` is just treated as a baseline in case there are no conflicting local modificiations. For instance, you may want to adjust your `file_header` rule configuration:
+Please note that SwiftLint will still allow you to customize your config, as the `parent_config` is only taken into account iff there are no conflicting local modifications. For instance, you may want to adjust the configuration of the `file_header` rule:
 
 ```yaml
 file_header:
