@@ -1,12 +1,5 @@
 # SwiftLintConfigs
 
-<p align="center">
-    <a href="https://app.bitrise.io/app/a356826311a2ce54">
-        <img src="https://app.bitrise.io/app/a356826311a2ce54/status.svg?token=59y8Ng_N8FGVnYcqmsk0Fw&branch=stable"
-             alt="Build Status">
-    </a>
-</p>
-
 This repo contains a baseline SwiftLint configuration that can be referenced from a local SwiftLint configuration.
 
 ## Usage
@@ -46,6 +39,9 @@ For any changes to the configuration file provided by this repository, please ad
 4. Paste the `swiftlint.yml` that you copied in step 2 into the new folder that you created in step 3.
 
 When opening up a PR, the CI will check if the top-level `swiftlint.yml` file matches the latest version's `swiftlint.yml` file.
+
+Here's the current CI status: <a href="https://app.bitrise.io/app/a356826311a2ce54"><img src="https://app.bitrise.io/app/a356826311a2ce54/status.svg?token=59y8Ng_N8FGVnYcqmsk0Fw&branch=stable"
+         alt="Build Status"></a>
 
 ## Contributing (Other people)
 
